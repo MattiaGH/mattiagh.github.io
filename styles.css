@@ -116,3 +116,16 @@
     padding-block: 1.75rem;
   }
 }
+
+
+/* Homepage: one divider and the same blue for first and last name. */
+.homepage #home-heading,
+.homepage #home-heading em {
+  color: var(--accent);
+}
+
+.homepage .homepage-divider {
+  margin: 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+}
