@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" fill="none">
+  <style>.moving{stroke-dasharray:4 14;animation:drift 18s linear infinite}@keyframes drift{to{stroke-dashoffset:-180}}@media(prefers-reduced-motion:reduce){.moving{animation:none}}</style>
+  <defs><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".65" fill="#8ca5ac" opacity=".6"/></pattern></defs>
+  <rect width="500" height="320" fill="url(#dots)"/>
+  <path d="M55 244H455M75 270V42" stroke="#9aafb4" stroke-width=".7"/>
+  <g stroke="#245fba" stroke-width="1.5" opacity=".22"><path d="M85 55C128 61 169 82 214 129S329 173 441 173"/><path d="M85 93C144 80 187 117 226 146S333 173 441 173"/><path d="M85 148C151 110 190 127 231 154S335 173 441 173"/><path d="M85 198C146 173 185 163 235 166S332 173 441 173"/><path d="M85 232C164 217 192 184 239 177S339 173 441 173"/></g>
+  <g class="moving" stroke="#245fba" stroke-width="2"><path d="M85 55C128 61 169 82 214 129S329 173 441 173"/><path d="M85 148C151 110 190 127 231 154S335 173 441 173"/><path d="M85 232C164 217 192 184 239 177S339 173 441 173"/></g>
+  <path d="M85 172C191 172 334 173 441 173" stroke="#173b43" stroke-width="2"/>
+  <g fill="#eaf0f1" stroke="#245fba" stroke-width="1.5"><circle cx="85" cy="55" r="4"/><circle cx="85" cy="148" r="4"/><circle cx="85" cy="232" r="4"/></g>
+  <circle cx="441" cy="173" r="5" fill="#173b43"/>
+  <text x="448" y="263" fill="#53646a" font-family="Georgia,serif" font-size="14" font-style="italic">t</text>
+  <text x="55" y="47" fill="#53646a" font-family="Georgia,serif" font-size="14" font-style="italic">x</text>
+</svg>
